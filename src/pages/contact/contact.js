@@ -30,7 +30,7 @@ function Contact() {
         ></textarea>
 
         <button type="submit" className="btn btn-primary btn-lg">
-          Send Message
+          Send
         </button>
       </form>
       <img

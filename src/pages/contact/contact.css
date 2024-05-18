@@ -13,12 +13,7 @@
   margin-left: 25%;
   height: 400px;
   width: 840px;
-  background-color: #1b1a55;
   border-radius: 10px;
-}
-
-.image {
-  background-color: transparent;
 }
 
 .form {
@@ -26,5 +21,4 @@
   flex-direction: column;
   width: 300px;
   gap: 20px;
-  background-color: transparent;
 }
