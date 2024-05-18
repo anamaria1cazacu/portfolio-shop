@@ -1,10 +1,12 @@
 import "./App.css";
-import Contact from "./pages/contact/contact";
+import Home from "./pages/home/home";
+// import Navigation from "./components/navigation/navigation";
 
 function App() {
   return (
     <div className="App">
-      <Contact />
+      {/* <Navigation /> */}
+      <Home />
     </div>
   );
 }
