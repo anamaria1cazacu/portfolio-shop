@@ -1,19 +1,24 @@
 import "./navigation.css";
-import { BrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "../../pages/home/home";
-import Portfolio from "../../pages/portfolio/portfolio";
-import Shop from "../../pages/shop/shop";
-import Contact from "../../pages/contact/contact";
-
-const router = BrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/portfolio", element: <Portfolio /> },
-  { path: "/shop", element: <Shop /> },
-  { path: "/contact", element: <Contact /> },
-]);
+import { Link } from "react-router-dom";
 
 function Navigation() {
-  return <RouterProvider router={router} />;
+  return (
+    <nav className="nav">
+      <CustomLink to="/">Home</CustomLink>
+      <CustomLink to="/portfolio">Portfolio</CustomLink>
+      <CustomLink to="/shop">Shop</CustomLink>
+      <CustomLink to="/contact">Contact</CustomLink>
+    </nav>
+  );
 }
 
 export default Navigation;
+
+function CustomLink({ to, children, ...props }) {
+  const path = window.Location.pathname;
+  return (
+    <Link className={path === to ? "active" : ""} to={to}>
+      {children}
+    </Link>
+  );
+}
