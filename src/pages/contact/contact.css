@@ -1,19 +1,13 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-color: #1b1a55;
-}
-
 .contact {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 10%;
+  margin-left: 25%;
   height: 400px;
   width: 840px;
   border-radius: 10px;
-  margin: auto;
 }
 
 .form {

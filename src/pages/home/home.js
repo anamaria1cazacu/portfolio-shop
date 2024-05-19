@@ -3,20 +3,38 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home shadow-lg p-3 mb-5 rounded">
       <div>
-        <h2>Hello,</h2>
-        <h3>I'm Ana - hobbyist artist</h3>
-        <p>
-          I've been drawing digitally since 2008 as a hobby.
-          <br />
-        </p>
-        <div>
+        <div className="text">
+          <p className="head1">Hello,</p>
+          <p className="head2">I'm Ana, or annerpc</p>
+          <p>Romanian hobbyist artist. Drawing digitally since 2008.</p>
+          <p>
+            Tools:
+            <ul>
+              <li>XP-PEN Artist 15.6" Pro graphic tablet</li>
+              <li>Paint Tool Sai</li>
+              <li>ClipStudio Paint - learning</li>
+            </ul>
+          </p>
+          <p>
+            Styles I do:
+            <ul>
+              <li>Winx Club</li>
+              <li>
+                Various Anime Styles: Naruto, Fairy Tail, My Hero Acaemia, etc.
+              </li>
+              <li>Cartoon Styles: Ever After / Monster High, Lolirock</li>
+              <li>My own style - combination of all the mentioned styles</li>
+            </ul>
+          </p>
+        </div>
+        <div className="social">
           <a href="https://www.instagram.com/annerpc/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="30"
+              height="30"
               fill="currentColor"
               class="bi bi-instagram"
               viewBox="0 0 16 16"
@@ -27,8 +45,8 @@ function Home() {
           <a href="https://www.patreon.com/annerpc">
             <svg
               id="logosandtypes_com"
-              width="16"
-              height="16"
+              width="32"
+              height="32"
               data-name="logosandtypes com"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 150 150"
@@ -38,8 +56,8 @@ function Home() {
           </a>{" "}
           <a href="https://ko-fi.com/annerpc">
             <svg
-              width="16"
-              height="16"
+              width="32"
+              height="32"
               viewBox="0 0 48 48"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

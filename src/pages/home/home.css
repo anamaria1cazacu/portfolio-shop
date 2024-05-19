@@ -4,9 +4,37 @@
   align-items: center;
   justify-content: center;
   margin: auto;
+  border-radius: 10px;
 }
 
 .profile {
-  width: auto;
-  height: 400px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 50px;
+  color: #fff;
+  gap: 20px;
+}
+
+p {
+  margin-left: 30px;
+  width: 700px;
+  line-height: 30px;
+}
+
+.head1 {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.head2 {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.social {
+  margin-left: 90px;
+  margin-top: 90px;
 }
