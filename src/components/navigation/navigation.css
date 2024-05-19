@@ -23,3 +23,7 @@
 a:hover {
   background-color: #400cbb;
 }
+
+a:active {
+  background-color: #30078f;
+}
