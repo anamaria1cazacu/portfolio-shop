@@ -22,7 +22,7 @@ function Home() {
             <ul>
               <li>Winx Club</li>
               <li>
-                Various Anime Styles: Naruto, Fairy Tail, My Hero Acaemia, etc.
+                Various Anime Styles: Naruto, Fairy Tail, My Hero Academia, etc.
               </li>
               <li>Cartoon Styles: Ever After / Monster High, Lolirock</li>
               <li>My own style - combination of all the mentioned styles</li>
