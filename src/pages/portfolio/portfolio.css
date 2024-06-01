@@ -1,0 +1,14 @@
+content {
+  display: flex;
+}
+
+p {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 20px;
+}
