@@ -8,8 +8,10 @@ function Home() {
         <div className="text">
           <p className="head1">Hello,</p>
           <p className="head2">I'm Ana, or annerpc</p>
-          <p>Romanian hobbyist artist. Drawing digitally since 2008.</p>
-          <p>
+          <p className="intro">
+            Romanian hobbyist artist. Drawing digitally since 2008.
+          </p>
+          <p className="intro">
             Tools:
             <ul>
               <li>XP-PEN Artist 15.6" Pro graphic tablet</li>
@@ -17,7 +19,7 @@ function Home() {
               <li>ClipStudio Paint - learning</li>
             </ul>
           </p>
-          <p>
+          <p className="intro">
             Styles I do:
             <ul>
               <li>Winx Club</li>
