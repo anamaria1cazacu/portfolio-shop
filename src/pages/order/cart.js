@@ -12,6 +12,7 @@ function Cart() {
       ) : (
         cart.map((item, index) => (
           <div key={index}>
+            <img alt="{Item}" src="{item.preview}" />
             <p>
               {item.name} - Quantity: {item.quantity}
             </p>

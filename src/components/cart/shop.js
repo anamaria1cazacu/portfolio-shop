@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./shop.css";
 import shop from "../../data/shop.json";
-import { CartContext } from "../../components/CartContext"; // adjust the path accordingly
+import { CartContext } from "../../components/CartContext";
 
 function Shop() {
   const { addToCart } = useContext(CartContext);
