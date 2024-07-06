@@ -30,10 +30,10 @@
     },
     {
         "id": 5,
-        "name": "Stickers",
+        "name": "Stickers - 15 pack",
         "description": "Waterproof stickers with chibi characters",
-        "preview": "",
-        "price": "10/pack"
+        "preview": "https://pbs.twimg.com/media/Di4xRuCW4AAi0a1?format=jpg&name=4096x4096",
+        "price": "10"
     },
     {
         "id": 6,
