@@ -1,5 +1,5 @@
 import { Card } from "react-bootstrap";
-import { formatCurrency } from "./formatCurrency";
+import { formatCurrency } from "../../components/shopitem/formatCurrency";
 
 export function ShopItem({ id, name, description, price, preview }) {
   return (
