@@ -1,2 +1,8 @@
+.text {
+  margin-top: 0;
+  color: #ffffff;
+}
 
-
+.card {
+  margin-top: 25px;
+}

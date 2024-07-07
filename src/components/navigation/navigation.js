@@ -1,6 +1,15 @@
 import "./navigation.css";
 import { Link } from "react-router-dom";
 
+function CustomLink({ to, children, ...props }) {
+  const path = window.Location.pathname;
+  return (
+    <Link className={path === to ? "active" : ""} to={to}>
+      {children}
+    </Link>
+  );
+}
+
 function Navigation() {
   return (
     <nav className="nav">
@@ -14,12 +23,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-function CustomLink({ to, children, ...props }) {
-  const path = window.Location.pathname;
-  return (
-    <Link className={path === to ? "active" : ""} to={to}>
-      {children}
-    </Link>
-  );
-}

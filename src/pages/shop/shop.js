@@ -1,7 +1,7 @@
 import "./shop.css";
 import { Col, Row } from "react-bootstrap";
 import shop from "../../data/shop.json";
-import { ShopItem } from "../../components/shopitem";
+import { ShopItem } from "../../components/shopitem/shopitem";
 
 function Shop() {
   return (

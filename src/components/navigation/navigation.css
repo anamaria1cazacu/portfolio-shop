@@ -6,7 +6,7 @@
   align-content: center;
   margin: auto;
   gap: 25px;
-  background-color: #1c0257;
+  background-color: #090979;
   height: 100px;
 }
 
@@ -25,5 +25,5 @@ a:hover {
 }
 
 a:active {
-  background-color: #30078f;
+  background-color: #5a22df94;
 }
