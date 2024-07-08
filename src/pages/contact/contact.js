@@ -1,7 +1,14 @@
+import { useState } from "react";
 import "./contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Contact() {
+  const [buttonText, setButtonText] = useState("Send");
+
+  const handleClick = () => {
+    setButtonText("Your message has been sent.");
+  };
+
   return (
     <div className="contact shadow-lg p-3 mb-5 rounded">
       <form className="form" action="">
@@ -29,8 +36,12 @@ function Contact() {
           placeholder="Message"
         ></textarea>
 
-        <button type="submit" className="btn btn-primary btn-lg">
-          Send
+        <button
+          type="submit"
+          className="btn btn-primary btn-lg"
+          onClick={handleClick}
+        >
+          {buttonText}
         </button>
       </form>
       <img
