@@ -4,7 +4,7 @@ import { useCart } from "../../utilities/shopingcartcontext";
 import shop from "../../data/shop.json";
 import { formatCurrency } from "../../utilities/formatCurrency";
 
-export function Cart({ id, quantity }) {
+export function CartItem({ id, quantity }) {
   const { removeFromCart } = useCart();
   const item = shop.find((i) => i.id === id);
   if (item == null) return null;
@@ -12,7 +12,7 @@ export function Cart({ id, quantity }) {
   return (
     <Stack direction="horizontal" gap={2} className="d-flex align-items-center">
       <img
-        src={item.imgUrl}
+        src={item.preview}
         style={{ width: "125px", height: "75px", objectFit: "cover" }}
         alt={item.name}
       />

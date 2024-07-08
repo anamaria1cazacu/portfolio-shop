@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
-import { Cart } from "../pages/order/cart";
 import { useLocalStorage } from "../utilities/hooks";
+import Cart from "../pages/order/cart";
 
 const CartContext = createContext();
 
@@ -65,12 +65,12 @@ export function CartProvider({ children }) {
   return (
     <CartContext.Provider
       value={{
+        openCart,
+        closeCart,
         getItemQuantity,
         increaseCartQuantity,
         decreaseCartQuantity,
         removeFromCart,
-        openCart,
-        closeCart,
         cartItems,
         cartQuantity,
       }}

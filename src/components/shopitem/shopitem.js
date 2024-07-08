@@ -10,6 +10,7 @@ export function ShopItem({ id, name, description, price, preview }) {
     decreaseCartQuantity,
     removeFromCart,
   } = useCart();
+
   const quantity = getItemQuantity(id);
 
   return (

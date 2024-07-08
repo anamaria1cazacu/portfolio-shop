@@ -2,44 +2,43 @@
     {
         "id": 1,
         "name": "Mug",
-        "description": "Printed mug",
-        "details:": "Material: ceramic,Volume: 325 ml,Finish: Glossy, Mug model: Thermosensitive, colored or normal, Care instructions: Dishwasher safe, scratch resistant, microwave safe.", 
-        "preview": "",
+        "description": "Printed mug", 
+        "preview": "https://i.imgur.com/bBzmv2t.png",
         "price": "9"
     },
     {
         "id": 2,
         "name": "T-shirt",
         "description": "Cotton shirt with printed models",
-        "preview": "",
+        "preview": "https://i.imgur.com/U3R2ziS.png",
         "price": "12"
     },
     {
         "id": 3,
         "name": "Keychain",
         "description": "Acrylic keychain with chibi designs",
-        "preview": "",
+        "preview": "https://i.imgur.com/763rr8Y.png",
         "price": "15"
     },
     {
         "id": 4,
         "name": "Mousepad",
         "description": "Mousepad with characters",
-        "preview": "",
+        "preview": "https://i.imgur.com/HwJkf7r.png",
         "price": "12.5"
     },
     {
         "id": 5,
-        "name": "Stickers - 15 pack",
+        "name": "Stickers - 10/pack",
         "description": "Waterproof stickers with chibi characters",
-        "preview": "https://pbs.twimg.com/media/Di4xRuCW4AAi0a1?format=jpg&name=4096x4096",
+        "preview": "https://i.imgur.com/K1WlvNp.png",
         "price": "10"
     },
     {
         "id": 6,
         "name": "Earrings",
         "description": "Acrylic earrings - various models",
-        "preview": "",
+        "preview": "https://i.imgur.com/nZOd5Ol.png",
         "price": "12"
     }
 ]
